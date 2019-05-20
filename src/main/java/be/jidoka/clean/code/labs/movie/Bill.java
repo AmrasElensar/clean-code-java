@@ -20,6 +20,7 @@ public interface Bill {
      * @param age     the age of the ticket buyer in years
      * @param student true if the ticket buyer is a student
      */
+
     void addTicket(int age, boolean student);
 
     /**
